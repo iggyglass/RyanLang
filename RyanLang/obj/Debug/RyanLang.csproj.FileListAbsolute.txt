@@ -1,0 +1,7 @@
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\RyanLang.exe.config
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\RyanLang.exe
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\RyanLang.pdb
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.csprojAssemblyReference.cache
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.csproj.CoreCompileInputs.cache
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.exe
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.pdb
