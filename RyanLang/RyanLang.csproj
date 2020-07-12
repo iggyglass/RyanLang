@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrainFuckToRyanLang.cs" />
+    <Compile Include="CLIException.cs" />
     <Compile Include="Compiler.cs" />
     <Compile Include="CompilerException.cs" />
     <Compile Include="Program.cs" />
