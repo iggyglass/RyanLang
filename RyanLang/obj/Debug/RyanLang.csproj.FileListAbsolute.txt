@@ -5,3 +5,12 @@ C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.csprojAssemblyRe
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.csproj.CoreCompileInputs.cache
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.exe
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.pdb
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Buffers.dll
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Memory.dll
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Buffers.xml
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Memory.xml
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Debug\RyanLang.csproj.CopyComplete

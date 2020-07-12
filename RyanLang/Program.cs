@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
+using System;
 
 namespace RyanLang
 {
@@ -10,8 +7,11 @@ namespace RyanLang
     {
         static void Main(string[] args)
         {
-            string pgrm = ",.";
-            Compiler.Compile(pgrm);
+            string pgrm = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.";
+            var b = Compiler.Compile(BrainFuckToRyanLang.Compile(pgrm), "Hello_world");
+
+            b.Save("Hello_world.exe");
+
             Console.ReadKey();
         }
     }
