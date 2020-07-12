@@ -73,13 +73,14 @@ namespace RyanLang
                         gen.Emit(OpCodes.Ldelem_U2);
                         gen.Emit(OpCodes.Call, typeof(Console).GetMethod("Write", new Type[] { typeof(char) }));
                         break;
-                    case ',': // This one may or may not work
+                    case ',':
                         gen.Emit(OpCodes.Call, typeof(Console).GetMethod("ReadKey", new Type[] { }));
                         gen.Emit(OpCodes.Stloc_2);
                         gen.Emit(OpCodes.Ldloc_1);
                         gen.Emit(OpCodes.Ldloc_0);
                         gen.Emit(OpCodes.Ldloca_S, (byte)2);
-                        gen.Emit(OpCodes.Call, typeof(Console).GetMethod("get_KeyChar", new Type[] { }));
+                        gen.Emit(OpCodes.Call, typeof(ConsoleKeyInfo).GetMethod("get_KeyChar", new Type[] { }));
+                        gen.Emit(OpCodes.Stelem_I2);
                         break;
                     case '[':
                         {
