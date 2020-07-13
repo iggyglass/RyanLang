@@ -40,7 +40,7 @@ namespace RyanLang
                 }
                 else
                 {
-                    if (!File.Exists(args[1])) File.Create(args[1]);
+                    if (!File.Exists(args[1])) File.Create(args[1]).Dispose();
 
                     File.WriteAllText(args[1], code);
                 }
@@ -76,7 +76,7 @@ namespace RyanLang
 
         private static string getTimestamp(DateTime time)
         {
-            return time.ToString("yyyyMMddHHmmssffff");
+            return time.ToString("yyyy:MM:dd:HH:mm:ss:ffff");
         }
     }
 }

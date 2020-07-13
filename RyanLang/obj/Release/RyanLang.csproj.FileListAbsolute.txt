@@ -13,3 +13,4 @@ C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Release\RyanLang.csproj.CoreCom
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Release\RyanLang.csproj.CopyComplete
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Release\RyanLang.exe
 C:\Users\Iggy\source\repos\RyanLang\RyanLang\obj\Release\RyanLang.pdb
+C:\Users\Iggy\source\repos\RyanLang\RyanLang\bin\Release\hello_world.bf
