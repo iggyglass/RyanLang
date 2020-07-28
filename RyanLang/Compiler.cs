@@ -108,7 +108,7 @@ namespace RyanLang
                         gen.Emit(OpCodes.Stloc_2);
                         gen.Emit(OpCodes.Ldloc_1);
                         gen.Emit(OpCodes.Ldloc_0);
-                        gen.Emit(OpCodes.Ldloca_S, (byte)2);
+                        gen.Emit(OpCodes.Ldloc_2);
                         gen.Emit(OpCodes.Call, typeof(ConsoleKeyInfo).GetMethod("get_KeyChar", new Type[] { }));
                         gen.Emit(OpCodes.Stelem_I2);
                         break;
